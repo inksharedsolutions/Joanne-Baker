@@ -31,7 +31,7 @@
 }
 
 #main-upper-author {
-	background: linear-gradient(to bottom, #6293b0 0,#98dfd2); 
+	background: linear-gradient(to bottom, #e3bbe3 0,#259fb4); 
 	padding: 6% 0;
 	text-align: center;
 	position: relative;
@@ -68,7 +68,7 @@
 	// position: relative;
 	// z-index: 2;
 	/*changes*/
-	background: linear-gradient(180deg, #98dfd2 0,#6293b0);
+	background: linear-gradient(180deg, #259fb4 0,#e3bbe3);
 	padding: 6% 0;
 	text-align: center;
 	position: relative;
@@ -109,7 +109,7 @@
 
 .mid-main {
 	text-align: center;
-	background: linear-gradient(to bottom, #98dfd2 1%, #067b86);
+	background:#259fb4 !important;
 	// background: #090911;
 	padding: 6% 0;
 
@@ -436,7 +436,7 @@
 }
 
 .sub-heading{
-	font-size: 22px;
+	font-size: 25px;
 }
 .flex-container {
 	display: grid;

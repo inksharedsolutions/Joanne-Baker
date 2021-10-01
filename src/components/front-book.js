@@ -24,7 +24,7 @@ const MidBook = (props) => {
                             </h1>
 
                             <p data-aos="fade-up" data-aos-duration="2000">
-                            The primary purpose of this book is to assist those caring for children unable to be with their original parents. There are many reasons this occurs. Some might be truly orphaned, their parents having died from AIDS, Ebola, or another epidemic or because of an accident, war, terrorism, or some other illness or tragedy.
+                            Anne is the owner and there for in charge of the shipping company Paw Print when women were thought to be property; when the ship she is on is taken over by what she thinks are pirates...
                             </p>
 
                             <button className="btn-book-featured" data-aos="fade-up" data-aos-duration="3000">

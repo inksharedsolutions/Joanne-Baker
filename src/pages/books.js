@@ -12,7 +12,7 @@ const ATB = (props) => {
     const slug = (props.location.href);
 
     const disqusConfig = {
-        shortname: 'larry-e-banta-md',
+        shortname: 'joanne-m-baker',
         config: { identifier: 12, slug }
     }
 
@@ -20,7 +20,7 @@ const ATB = (props) => {
     return (
         <>
             <Layout>
-                <Helmet title="Book | Larry E. Banta, MD" />
+                <Helmet title="Book | Joanne M. Baker" />
                 <Nav pathExt={props.path} />
 
                 <Banner
@@ -35,40 +35,29 @@ const ATB = (props) => {
 
                         <BookInfo
                             data={{
-                                title: `Help for the Hurting Child:`,
-                                spanFirst: `Christian Approaches to Therapeutic Parenting`,
+                                title: `Trapped in Love'S Magic Spell`,
+                                spanFirst: `Book 1: THE SHIPS`,
                                 imgSrc: Book3,
                                 id: 'the_gifted_one',
                                 content:
                                     `
                                         <p>
-                                        The primary purpose of this book is to assist those caring for children unable to be with their original parents. There are many reasons this occurs. Some might be truly orphaned, their parents having died from AIDS, Ebola, or another epidemic or because of an accident, war, terrorism, or some other illness or tragedy. Others perhaps come from situations in which original parents or adoptive parents are not able to care for them due to factors related to either the child or parents. Whatever the situation, these children do not have the advantage of living with their original set of parents and are now in some type of alternative home placement.
-                                        </p> 
-                                        <p>
-                                        The placement may be a foster home, adoptive home, orphanage, children's home, residential school, or other type of placement.
+                                        Anne is the owner and there for in charge of the shipping company Paw Print when women were thought to be property; when the ship she is on is taken over by what she thinks are pirates. Anne soon learns that her beloved cats lives are in danger, she then must pull out all the stops to save them before it is too late. The captain of the privateers is use to doing as he pleases but is totally intrigued by this annoying beauty. Thomas sets out to teach her about her true place in the world and he thinks that is at his side, but Thomas has a lot to learn about Anne. When these two forces clash it is anything but smooth sailing on the high seas.
                                         </p>
-                                        <p>
-                                        Caring for these special children, who are hurting from having been separated from their original parents, is a difficult, challenging, but rewarding ministry.
-                                        </p>
-                                        <p>
-                                        As Christians, we are commanded to care for the widows and orphans, as this fulfills true religion:
-                                        </p>
-                                        <span>
-                                        Religion that God our Father accepts as pure and faultless is this: to look after orphans and widows in their distress and to keep oneself from being polluted by the world. <br/>-James 1:27
-                                        <span/>
+                                        
                                         
                                         
                                     `,
 
                                 ebooks: {
                                     // stratton: 'https://www.stratton-press.com/books/heroes-and-villains-california-dreaming-book-i/',
-                                    barnes: 'https://www.barnesandnoble.com/w/help-for-the-hurting-child-md-fapa-larry-banta-e/1139976652?ean=9781648954832',
-                                    amazon: 'https://www.amazon.com/Help-Hurting-Child-Approaches-Therapeutic-ebook/dp/B09C21XNVZ/ref=sr_1_1?dchild=1&keywords=9781648954832&qid=1628545767&sr=8-1',
+                                    barnes: 'https://www.barnesandnoble.com/w/trapped-in-loves-magic-spell-joanne-m-baker/1126345679?ean=9781648955204',
+                                    amazon: 'https://www.amazon.ca/Trapped-Loves-Magic-Spell-Ships-ebook/dp/B09FNHR42S/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=',
                                 },
                                 paperback: {
-                                    amazon: 'https://www.amazon.com/Help-Hurting-Child-Approaches-Therapeutic/dp/1648954820/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1628545767&sr=8-1',
-                                    barnes: 'https://www.barnesandnoble.com/w/help-for-the-hurting-child-md-fapa-larry-banta-e/1139976652?ean=9781648954825',
-                                    booksamillion: 'https://www.booksamillion.com/p/Help-Hurting-Child/Fapa-Larry-Banta/9781648954825?id=8312449787077',
+                                    amazon: 'https://www.amazon.ca/Trapped-Loves-Magic-Spell-Ships/dp/1648955193/ref=monarch_sidesheet',
+                                    barnes: 'https://www.barnesandnoble.com/w/trapped-in-loves-magic-spell-joanne-m-baker/1126345679?ean=9781648955198',
+                                    booksamillion: 'https://www.booksamillion.com/p/Trapped-Loves-Magic-Spell/Joanne-Baker/9781648955198?id=8330748555077',
                                 }
                             }}
                         />

@@ -10,8 +10,8 @@ const Banner = () => {
                         <div className="grid-child-elem">
                             <div className="banner-text">
                                 <h1>
-                                Trapped <span class ="small">in</span> Love'S <span class = "small">
-                                    Magic Spell
+                                TRAPPED <span class ="small">IN</span> LOVE'S <span class = "small">
+                                    MAGIC SPELL
                                 </span>
                                 </h1>
                                

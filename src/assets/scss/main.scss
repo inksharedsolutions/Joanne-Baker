@@ -21,6 +21,11 @@
     // font-weight: normal;
 }
 @font-face {
+    font-family: "NARROW";
+    src: url("../../../static/font/NARROW.ttf") format('truetype');
+}
+
+@font-face {
     font-family: "ALTCAPS";
     src: url("../../../static/font/ALTCAPS.ttf")format('truetype');
 }
@@ -107,7 +112,7 @@ button {
         color: #fff !important;
         text-decoration: none;
         cursor: pointer;
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 .btn-book-featured:hover {
@@ -131,7 +136,7 @@ button {
 
 #___gatsby {
     background: linear-gradient(
-        359deg, #37b6b6 0, #ffffff);;
+        50deg, #259fb4 0, #ffffff);;
     // background: #1F1F21;
 }
 .ata-name {

@@ -11,12 +11,13 @@ const Author = () => {
                     <div className="grid-child" id="author-contents">
 
                         <p data-aos="fade-up" data-aos-duration="2000">
-                        Larry Banta was born and raised in Ohio, on a farm near Cincinnati. Upon graduating high school in Lebanon, Ohio, he left for college in Lincoln, Nebraska, where he obtained a BS in microbiology. From there, he attended University of Nebraska Medical College, where he was awarded his MD degree. <br/>
+                        I started writing TRAPPED IN LOVE'S MAGIC SPELL as a junior in high school because a teacher told me I had to do something in study hall I couldn't just sit there.. 
+ 
                         </p>
 
                         <h1 className="author-name-tag" >
                             <span></span>
-                            <span>Larry E. Banta, MD</span>
+                            <span>Joanne M. Baker</span>
                         </h1>
 
                         <span className="author-tagline">Author & Writer</span>

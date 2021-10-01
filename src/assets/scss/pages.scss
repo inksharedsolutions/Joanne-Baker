@@ -6,7 +6,7 @@ $prm-font-size: 12px;
 @import "~bulma/bulma.sass";
 
 .web-banner {
-	background: url("../../../static/banner/banner3.jpg");
+	background: url("../../../static/banner/b2.jpg");
 	height: 650px;
 	// background-attachment: fixed;
 	background-position: center;
@@ -98,7 +98,7 @@ $prm-font-size: 12px;
 .article-section {
 	p {
 		text-align: justify;
-		font-size: 15px;
+		font-size: 20px;
 		line-height: 2.2;
 		color: #000000;
 		margin-bottom: 2em;
@@ -382,7 +382,7 @@ $prm-font-size: 12px;
 		text-align: left;
 		font-size: 2.5rem;
 		font-weight: 900;
-		color: rgb(19, 59, 59) !important;
+		color: rgb(197, 24, 24) !important;
 		line-height: 1;
 		text-transform: uppercase;
 	}
@@ -399,10 +399,10 @@ $prm-font-size: 12px;
 		&:after {
 			content: '';
 			width: 100%;
-			background: #000000ee;
+			background: #ffffffee;
 			position: relative;
 			display: block;
-			height: 1px;
+			height: 4px;
 			margin: 22px 2px;
 		}
 	}
@@ -460,10 +460,12 @@ $prm-font-size: 12px;
 }
 
 .sub-heading {
-	color: #067b86;
+	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 25px;
+	text-shadow: 1px 1px black;
+
 }
 
 #author-name{
