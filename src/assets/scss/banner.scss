@@ -92,7 +92,7 @@
         content: "";
         background: url("../../../static/banner/banner.png") no-repeat;
         position: relative;
-        height: 100vh;
+        height: 110vh;
         width: 100%;
         top: 0;
         background-position: center;
@@ -152,20 +152,21 @@
     width: 40rem;
     line-height: 1;
     z-index: 1;
-    padding-top: 17em;
+    // padding-top: 17em;
    
 
     h1 {
 
         // text-transform: capitalize;
-        text-shadow: 2px 6px #ffffff;
+        text-shadow: 2px 5px #ffffff;
         font-size: 7rem;
         line-height: 1;
         font-weight: 900;
         color:#ed2929 !important;
-        padding: 20px;
+        padding: 25px;
         text-align: center;
         font-family: "narrow";
+        letter-spacing: 7px;
         .small{
             text-shadow: 2px 2px #ffffff;
             line-height: 1;
