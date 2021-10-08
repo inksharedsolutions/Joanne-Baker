@@ -106,7 +106,7 @@ const Contact = (props) => {
 
 
                         <div className="info-section-address">
-                            <span>
+                            <span class="address">
                                 <h5>Address</h5>
                                 831 N Tatnall Street, Suite M #188 Wilmington,
                                 DE 19801

@@ -421,11 +421,15 @@ $prm-font-size: 12px;
 	margin: 39px 0;
 	border-top: 1px solid rgb(0, 0, 0);
 
+	.address{
+		font-size: 17px;
+	}
+
 	span {
 		display: block;
 		font-weight: 100 !important;
 		margin: 30px 0px;
-		font-size: 13px;
+		font-size: 15px;
 		color: #000000;
 
 		h5 {
@@ -435,7 +439,13 @@ $prm-font-size: 12px;
 			text-transform: uppercase;
 			color: #000000;
 		}
+
 		
+		
+	}
+	a{
+		font-size:18px ;
+	
 	}
 }
 
