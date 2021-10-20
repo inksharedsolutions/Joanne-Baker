@@ -4,14 +4,17 @@
 @media screen and (max-height: 768px){
 	.banner-text{
 	
+		#banner-txt h1{
+			padding-top: 10px;
+		}
 		
-		padding-top: 15vw;
 		width: 40rem;
 		span{
 			font-size: 25px;
 		}
 		h1{
 			font-size: 85px;
+			// padding-top: 135px;
 			.small{
 				font-size: 42px;
 				padding: 0;
@@ -19,6 +22,7 @@
 			}
 		}
 	}
+	
 	#author-contents h1{
 		font-size: 42px;
 	}
@@ -31,6 +35,30 @@
 	
 }
 
+
+
+
+@media screen and (max-width: 1366px){
+	.banner-text {
+		
+		h1{
+			font-size: 4rem;
+			padding-top: 17vw;
+		}
+		span{
+			font-size: 23px;
+		}
+	}
+	.navigation li img {
+		width: 120px;
+		max-width: 100%;
+	}
+	.container-gt {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	
+}
 @media screen and (max-width: 1350px) {
 	.flex-container {
 		h1 {
@@ -61,12 +89,12 @@
 	}
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-height: 800px){
 	.banner-section{
 		height: 1000px;
 	}
 	.banner-text {
-		padding-top: 20vw;
+		// padding-top: 20vw;
 		h1{
 			font-size: 75px;
 
@@ -100,7 +128,7 @@
 	}
 	.banner-section{
 		// padding-left: 333px;
-		height: 120vh;
+		height: 110vh;
 	}
 
 	.banner-text {
@@ -135,9 +163,24 @@
 		justify-content: center;
 	}
 }
+@media screen and (min-height:1024px){
+	#mid-adjust{
+		.container-gt{
+			max-width: 600px;
+		}
+	}
+	.content-wraps{
+		p{
+			padding: 50px;
+		}
+	}
+		
+	
+}
+
 @media screen and (min-height:860px){
 	.banner-text{
-		padding-top: 220px;
+		// padding-top: 220px;
 
 		h1{
 			font-size: 6rem;
@@ -172,6 +215,25 @@
 			padding: 0 10px;
 			font-size: 18px;
 		}
+	}
+	
+	.content-wraps{
+		p{
+			padding: 0px;
+		}
+	}
+	#mid-adjust{
+		.container-gt{
+			max-width: 900px;
+		}
+	}
+	#banner-txt{
+		h1{
+			padding-top: 24vw;
+		}
+	}
+	.navigation li img {
+		max-width: 120%;
 	}
 
 	
@@ -345,7 +407,7 @@
 	}
 
 	.container-gt {
-		max-width: 600px;
+		max-width: 800px;
 	}
 
 	.upper-main {
@@ -451,8 +513,8 @@
 		}
 	
 
-	} 
-	
+	}
+	 	
 
 	.banner-text {
 		line-height: 1;
@@ -557,6 +619,9 @@
 			font-size: 20px;
 		}
 		
+	}
+	.container-gt {
+		max-width: 350px;
 	}
 }
 	
@@ -807,7 +872,7 @@
 
 		h1{
 			font-size: 60px;
-			padding-top: 118px;
+			padding-top: 130px;
 			text-shadow: 2px 2px #ffffff;
 			.small{
 				font-size: 40px;
@@ -993,10 +1058,15 @@
 	#author-contents h1 span {
 		font-size: 38px;
 	}
-	.banner-text h1{
-		font-size: 60px ;
-		padding-top: 100px;
+	.banner-text {
+		h1{
+		font-size: 50px ;
+		padding-top: 120px;	}
+		.small{
+			font-size: 30px;
+		}
 	}
+	
 	.mid-main {
 		#logos-col{
 			margin: 1% 0px;

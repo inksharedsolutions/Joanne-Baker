@@ -8,7 +8,7 @@ const Banner = () => {
                 <div className="container-gt id= banner-text-gt">
                     <div className="one-grid-columns">
                         <div className="grid-child-elem">
-                            <div className="banner-text">
+                            <div className="banner-text" id = "banner-txt">
                                 <h1>
                                 TRAPPED <span class ="small">IN</span> LOVE'S <span class = "small">
                                     MAGIC SPELL

@@ -7,7 +7,7 @@ import Logo4 from '../../static/logo/stratton-logo.png'
 const MidMain = () => {
     return (
         <>
-            <section className="mid-main">
+            <section className="mid-main" id= "mid-adjust">
                 <div className="container-gt separator-line">
                     <h1>Featured</h1>
                     <p className="middle-params">
